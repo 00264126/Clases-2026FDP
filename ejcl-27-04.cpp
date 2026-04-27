@@ -10,17 +10,21 @@ int main () {
 
     // Proceso de x + y^y
     x = pow (y,y);
+    cout << "el valor es << x ";
 
     // Determinar si es par o impar
     if (x % 2 ==0){
-        cout << "El numero es: " << x << "es par" << endl;
+        cout << "El numero: " << endl << x << "es par" << endl;
     }
     else {
-        cout << "El numero " << x << "es impar" << endl;
+        cout << "El numero: " << endl << x << "es impar" << endl;
 
     }
-
-
-
+    if (y < 0) {
+        cout << "El numero: " << y << " es negativo";
+    }
+    else if (y>0){
+    cout << "El numero: " << y << " es positivo" ;
+    }
 
 return 0;}

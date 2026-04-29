@@ -42,3 +42,4 @@ int main() {
 }
     return 0;
 }
+// resulta dificil hacerlo con if, sin embargo con futuros temas se puede hacer de manera más eficiente

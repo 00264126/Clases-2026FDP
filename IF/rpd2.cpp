@@ -4,16 +4,19 @@
 using namespace std;
 
 int main() {
-    string user;
-    int contra;
-
+    int intentos = 3;
+    string user= "name";
+    int contra =1234;
+    cout << "Ingrese su usario y contrasena ";
     cin >> user >> contra;
-
-    if (user == "nombre" && contra == 1234) {
-        cout << "Acceso concedido\n";
-    } else {
-        cout << "Acceso denegado\n";
+    if (user == "name" && contra == 1234) {
+        cout << "Bienvenido usario " << user << endl;
     }
-
+    else {
+        cout << "Vuelve a intentarlo";
+        int contador = intentos -1;
+        
+    }    
+    
     return 0;
 }

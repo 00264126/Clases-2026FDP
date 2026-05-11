@@ -18,4 +18,5 @@ int main (){
         }
     }
     cout << "la sumatoria de sus valores es: " << sum ;
-}
+
+return 0;}

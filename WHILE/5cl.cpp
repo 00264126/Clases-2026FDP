@@ -21,4 +21,4 @@ int main (){
     
     }
     cout << "Su sumatoria de numeros pares es de " << sum ;
-}
+return 0;}

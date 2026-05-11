@@ -24,7 +24,12 @@ float sal;
     
     switch (por){
         case 1: 
-            sal = sal - ( sal * 0.0725) - (sal * 0.30) - (sal * 0.03);
+
+        int afp= sal*0.0725;
+        int renta=sal * 0.30;
+        int seguro =sal * 0.03;
+        
+            sal = sal - (  afp + renta +seguro);
             cout << "Su salario final es de: "<< sal << endl;
         break;
     

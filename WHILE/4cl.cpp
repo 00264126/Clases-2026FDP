@@ -4,12 +4,10 @@ using namespace std;
 int main () {
     int x;
     cout << "Bienvenido, este es el menu de nuestra pagina web" << endl;
-    cout << "Presione 1 para mas informacion ,2 para ver como contactarnos o 3 para ver nuestros servicios" << endl;
-    cout << "Si gustase salirse del menu presione 4" << endl;
-
-    
     
     do {
+        cout << "Presione 1 para mas informacion ,2 para ver como contactarnos o 3 para ver nuestros servicios" << endl;
+        cout << "Si gustase salirse del menu presione 4" << endl;
         cin >> x;
         if (x==1){
             cout <<"TechNova Solutions es una empresa dedicada a brindar soluciones tecnologicas para estudiantes, negocios y profesionales. Ayudamos con soporte tecnico, desarrollo de paginas web y asesoria digital." << endl;
@@ -19,9 +17,14 @@ int main () {
         }
         else if (x == 3) {
             cout << "1. Creacion de paginas web" << endl << "2. Soporte tecnico para computadoras" << "3. Instalacion de software" << endl << "4 Asesoria tecnologica para pequenos negocios" << endl;
+
+            
         }
     }
     while (x !=4 );
+    if (x== 4){
+        return 1;
+    }
         
 
 return 0;}
